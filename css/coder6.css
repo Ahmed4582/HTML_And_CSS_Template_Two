@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.test{
+    background-color: blue;
+    width: 100%;
+}
+.test a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    background-color: tomato;
+    height: 100vh;
+}
+.about{
+    background-color: rgb(71, 215, 255);
+    height: 100vh;
+}
+.content{
+    background-color: rgb(71, 255, 178);
+    height: 100vh;
+}
+.file{
+    background-color: rgb(71, 95, 255);
+    height: 100vh;
+}

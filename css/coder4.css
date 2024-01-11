@@ -1,0 +1,28 @@
+.item{
+    background-color: #535151;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+}
+
+.item img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.item button{
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(172, 129, 55);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 20px;
+}

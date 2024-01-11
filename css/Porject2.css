@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+}
+.header{
+    height: 100vb;
+    background-image: url(hero-bg.jpg);
+    background-size: 100% 100%;
+}
+.sec-1{
+    background-color: black;
+    height: 12vb;
+}
+.sec-1 .nav{
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+.nav .dev{
+    width: 30%;
+    padding: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;  
+}
+.dev a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links ul{
+    margin-top: 10px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+.nav-links ul li{
+    list-style: none;
+    margin-left: 30px;
+ 
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.nav-links .home {
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li::after{
+    content: "";
+    display: block; 
+    width: 0;
+    height: 3px;
+    background-color: aliceblue;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+h1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-size: 60px;
+}
+h1::after{
+    content: "|";
+    position: absolute;
+    top: 55%;
+    font-size: 35px;
+}
+.section-1{
+    background-color: white;
+    opacity: 1;
+    padding: 48px !important;
+    margin: 48px !important;
+}
+.contain{
+    padding: 3rem !important;
+    margin: 3rem!important;
+}
+
+.container{
+    width: 50% !important;
+    flex: 0 0 auto !important;
+}
+.char
+{
+    display: flex !important;
+}
+.img{
+    margin: 0 0 1rem;
+}
+img{
+    vertical-align: middle;
+    display: flex !important;
+}
+.known{
+    margin-left: 60px ;
+}
+.known p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 4px;
+}
+span{
+    color: #544e4e;
+}
+h4{
+    margin-top: 3rem;
+    font-size: 20px;
+}
+.skill{
+    width: 95%;
+}
+.lang{
+    margin-top: 1rem;
+}
+.HTML{
+    width: 100%;
+    height: 12px;
+    background-color: #cde1f8;
+}
+.html{
+    width: 85%;
+    height: 12px;
+    background-color: #0078ff;
+}
+.CSS3{
+    width: 100%;
+    height: 12px;
+    background-color: #cde1f8;
+}
+.css3{
+    width: 75%;
+    height: 12px;
+    background-color: #0078ff;
+}
+.PHP{
+    width: 100%;
+    height: 12px;
+    background-color: #cde1f8; 
+}
+.php{
+    width: 50%;
+    height: 12px;
+    background-color: #0078ff;
+}
+.JAVASCRIPT{
+    width: 100%;
+    height: 12px;
+    background-color: #cde1f8; 
+}
+.javascript{
+    width: 90%;
+    height: 12px;
+    background-color: #0078ff;
+}
+.about h2{
+    position: relative;
+}
+.about h2::after {
+    content: " ";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #0078ff;
+}
+.pargraf p {
+    color: #4e4e4e;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 10px;
+}  
+p{
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    width: 75%;
+  
+}
+  
+.about{
+    width: 50% !important;
+    top: 60rem;
+    right: 0;
+    float: right;
+    position: absolute;
+    margin-right: 40px;
+    padding: 30px;
+    flex: 0 0 auto;
+}
+
+.hh{
+    margin-bottom: 1.5rem !important;
+}
+
+
+.section-2{
+    text-align: center !important;
+}
+.servies h2{
+    font-weight: 700px;
+}
+.servies p{
+    color: #544e4e;
+    left: 5rem !important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: auto;
+}
+.dropdownn .dropbutn{
+    border: none;
+    background-color: black;
+    margin-top: 3px;
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.drop-content a option{
+    color: black;
+}
+.dropdownn:hover .drop-content{
+    display: block;
+}
+.special{
+    position: relative;
+}

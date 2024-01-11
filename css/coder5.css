@@ -1,0 +1,37 @@
+.test{
+    background-image: url(backiee-81233.jpg);
+    height: 100vh;
+    width: 80%;
+    background-size: 100% 100%;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+.test:hover{
+    background-color: aqua
+}
+.ch{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    transition: 2s all 2s;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+.ch h2:hover{
+    transform: translateX(-100%) rotate();
+    -webkit-transform: translateX(-100%) rotate();
+    -moz-transform: translateX(-100%) rotate();
+    -ms-transform: translateX(-100%) rotate();
+    -o-transform: translateX(-100%) rotate();
+}
+p{
+    color: white;
+    text-align: center;
+}
